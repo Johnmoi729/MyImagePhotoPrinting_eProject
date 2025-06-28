@@ -1,0 +1,96 @@
+# Backend .gitignore for MyImage ASP.NET Core 9.0 Project
+# File Location: /MyImage/.gitignore (root of the solution)
+
+#################################
+# .NET Build Outputs
+#################################
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+#################################
+# NuGet Packages
+#################################
+
+# NuGet packages
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+#################################
+# User & IDE Files
+#################################
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+
+#################################
+# Configuration & Secrets
+#################################
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# User secrets
+secrets.json
+
+# Connection strings with actual passwords
+connectionstrings.json
+
+#################################
+# Logs
+#################################
+
+# Application logs
+*.log
+[Ll]ogs/
+
+#################################
+# Database Files
+#################################
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+#################################
+# Operating System
+#################################
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Linux
+*~
